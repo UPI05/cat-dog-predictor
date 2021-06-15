@@ -1,0 +1,28 @@
+body {
+    background-color: #ecfdfd;
+}
+.container {
+}
+.header {
+    height: 30px;
+    padding: 10px;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-top: 150px;
+    width: 250px;
+    height: 130px;
+}
+.logo img {
+    border-radius: 25px;
+}
+.content {
+    margin-top: 70px;
+    text-align: center;
+}
+.recently {
+    margin-top: 40px;
+}

@@ -1,0 +1,14 @@
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+.button {
+    width: 100px;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.button a:hover {
+    color: gray;
+}

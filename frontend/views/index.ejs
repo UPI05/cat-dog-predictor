@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../style.css" rel="stylesheet">
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <title>Dog - Cat Predictor</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col-sm-9 col-xs-12">
+                    <div class="alert alert-success" role="alert">
+                    Welcome to dog-cat predictor - Powered by Hieu Vo.
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                    <button class="btn btn btn-info">
+                        <a href="https://www.facebook.com/vo.hieu.12345/">Contact me</a>
+                    </button>
+                </div>
+            </div>
+            <div class="row logo">
+                <img src="../img/logo.jpg" alt="logo" />
+            </div>
+            <div class="row content">
+                <div class="col-xs-12 col-sm-9">
+                    <p>Please select an image to predict.</p>
+                    <form method="POST" action="/predict" enctype="multipart/form-data">
+                        <input type="file" name="myFile">
+                        <input type="submit" value="Upload a file"/>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 recently">
+                    <p>Recently:</p>
+                    <div class="alert alert-warning" role="alert">
+                        This feature is not activated!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
